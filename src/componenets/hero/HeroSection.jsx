@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Typewriter } from "react-simple-typewriter";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
-import pfp from '../../assets/pics/pfp.png';
-import './hero.css';
+import pfp from "../../assets/pics/pfp.png";
+import "./hero.css";
 
 function HeroSection() {
   const [imageLoaded, setImageLoaded] = useState(false);
@@ -10,7 +10,6 @@ function HeroSection() {
   return (
     <div className="hero min-h-[calc(100vh-6rem)] bg-base-200">
       <div className="hero-content flex-col lg:flex-row w-[85%] mx-auto p-5 text-center lg:text-left">
-        
         {/* Image Loader Block */}
         <div className="relative w-full max-w-xs sm:max-w-sm p-6 flex justify-center items-center">
           {!imageLoaded && (
@@ -33,7 +32,7 @@ function HeroSection() {
 
         <div>
           <h1 className="text-2xl sm:text-4xl lg:text-5xl font-bold">
-            Hi, I am Anshu Kumar
+            Hi, I am Shreya
             <br />
             <span className="text-xl sm:text-2xl">
               I am a
@@ -52,9 +51,10 @@ function HeroSection() {
           </h1>
 
           <p className="pt-6 pb-4">
-            Passionate about building full-stack applications with delightful user experiences.
+            Passionate about building web applications with delightful user
+            experiences.
           </p>
-          <p className="pb-4">
+          {/* <p className="pb-4">
             My very own social media is live now!{" "}
             <a
               href="https://waverr.vercel.app/"
@@ -65,12 +65,12 @@ function HeroSection() {
               Check it out here
             </a>
             <span className="block text-sm text-gray-500">Don't forget to turn on cookies to avoid errors.</span>
-          </p>
+          </p> */}
 
           {/* Social Icons */}
           <div className="flex space-x-4 mt-4 justify-center">
             <a
-              href="https://github.com/anshu-kumar27/"
+              href="https://github.com/shreya-malviya"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-500 text-4xl hover:text-primary hover:shadow-lg hover:shadow-sky-400/50 transition duration-300 p-3 rounded-full"
@@ -78,7 +78,7 @@ function HeroSection() {
               <FaGithub />
             </a>
             <a
-              href="https://www.linkedin.com/in/anshu-kumar-63259521b"
+              href="https://www.linkedin.com/in/-shreyamalviya/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-500 text-4xl hover:text-primary hover:shadow-lg hover:shadow-sky-400/50 transition duration-300 p-3 rounded-full"
@@ -86,7 +86,7 @@ function HeroSection() {
               <FaLinkedin />
             </a>
             <a
-              href="mailto:anshukumar3552@gmail.com"
+              href="mailto:shreya7302@gmail.com"
               className="text-gray-500 text-4xl hover:text-primary hover:shadow-lg hover:shadow-sky-400/50 transition duration-300 p-3 rounded-full"
             >
               <FaEnvelope />

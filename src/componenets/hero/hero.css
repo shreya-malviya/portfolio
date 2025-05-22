@@ -1,25 +1,25 @@
 /* animations.css */
 
 /* Define the color change animation */
-@keyframes colorChange {
+/* @keyframes colorChange {
   0% {
     color: #ff007f; /* Pink */
-  }
-  25% {
-    color: #4caf50; /* Green */
-  }
-  50% {
-    color: #2196f3; /* Blue */
-  }
-  75% {
-    color: #ff9800; /* Orange */
-  }
-  100% {
-    color: #ff007f; /* Pink (loop back) */
-  }
-}
+  /* } */
+  /* 25% { */
+    /* color: #4caf50; Green */
+  /* } */
+  /* 50% { */
+    /* color: #2196f3; Blue */
+  /* } */
+  /* 75% { */
+    /* color: #ff9800; Orange */
+  /* } */
+  /* 100% { */
+    /* color: #ff007f; Pink (loop back) */
+  /* } */
+/* } */ 
 
 /* Apply the animation to the specific class */
-.color-change {
+/* .color-change {
   animation: colorChange 3s infinite;
-}
+} */
